@@ -17,9 +17,15 @@ scanf("%d", &n);
             somme+=x;
             cpt++;
         }
-
-    moy=somme/cpt;
+        }
+        if (x%2==0){
+             moy=somme/cpt;
     printf("la moyenne des nombres pairs est %d ",moy);
+        }else{
+            printf("la moyenne des nombres impairs est %d",moy);
+        }
+
+
 return 0;
 }
 
